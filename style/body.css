@@ -1,0 +1,11 @@
+@font-face {
+    font-family: PrimaryDinosaur;
+    src: url('../src/fonts/Dinoko-Regular.otf') format('woff2'),
+         url('../src/fonts/Dinoko-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: SecundaryDinosaur;
+    src: url('../src/fonts/Dinoko-Layered.otf') format('woff2'),
+        url('../src/fonts/Dinoko-Layered.woff2') format('woff2');
+     
+}
