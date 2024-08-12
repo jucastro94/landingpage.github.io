@@ -1,0 +1,16 @@
+.sponsor-item {
+    transition: transform 0.3s ease-in-out;
+}
+
+.sponsor-item:hover {
+    transform: scale(1.1);
+}
+
+.sponsor-item img {
+    max-height: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sponsor-item:hover img {
+    transform: scale(1.1);
+}

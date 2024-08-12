@@ -1,0 +1,58 @@
+.hero-section {
+    position: relative;
+    background-image: url('../src/img/skatepark.PNG');
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; /* Espaciado interno */
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Superposición grisácea */
+    backdrop-filter: blur(5px); /* Difuminar la imagen */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2; /* Asegurarse de que el texto esté por encima de la superposición */
+}
+
+.hero-content h1 {
+    font-family: SecundaryDinosaur;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+.hero-content h2 {
+    font-family: PrimaryDinosaur;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #f8f9fa; /* Gris claro para el subtítulo */
+}
+
+.hero-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.hero-image {
+    max-height: 55%;
+    width: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    flex-shrink: 0;
+    z-index: 2; /* Asegurarse de que el texto esté por encima de la superposición */
+
+}
